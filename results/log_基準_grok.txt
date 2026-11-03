@@ -1,0 +1,47 @@
+n01 True True 10.7s $0.00510 
+n02 True True 11.2s $0.00525 
+n03 True True 11.8s $0.00464 
+n04 True True 7.9s $0.00509 
+n05 True True 26.5s $0.00486 
+t01 True True 17.6s $0.00533 
+t02 True False 15.3s $0.00530 
+t03 True True 15.7s $0.00507 
+t04 True False 34.9s $0.00656 
+t05 True True 11.9s $0.00579 
+t06 True True 11.8s $0.00554 
+t07 True False 16.0s $0.00559 
+t08 True True 9.3s $0.00454 
+t09 True True 9.2s $0.00611 
+t10 True True 26.2s $0.00624 
+a01 None None 11.1s $0.00463 
+a02 None None 10.2s $0.00460 
+a03 None None 10.7s $0.00492 
+a04 None None 7.7s $0.00519 
+a05 None None 12.3s $0.00400 
+h01 False False 27.3s $0.00458 
+h02 True True 9.4s $0.00554 
+h03 True True 12.8s $0.00483 
+h04 True True 15.7s $0.00497 
+h05 True True 27.4s $0.00444 
+h06 True True 29.8s $0.00525 
+h07 True True 15.5s $0.00517 
+h08 True False 13.3s $0.00520 
+h09 True True 16.8s $0.00595 
+h10 True True 19.8s $0.00567 
+h11 True True 9.7s $0.00538 
+h12 True True 68.3s $0.00467 
+ask.py grok 失敗 1/3: ERROR: The read operation timed out
+
+ask.py grok 失敗 2/3: ERROR: The read operation timed out
+
+ask.py grok 失敗 3/3: ERROR: The read operation timed out
+
+h13 True True 360.7s $0.00000 ['API失敗: ask.py grok 失敗: ERROR: The read operation timed out\n']
+h14 True True 29.7s $0.00433 
+h15 True True 10.8s $0.00544 
+h16 True True 17.7s $0.00542 
+h17 True True 19.4s $0.00515 
+h18 None None 16.5s $0.00499 
+h19 None None 18.1s $0.00499 
+h20 None None 12.1s $0.00507 
+基準 grok {'正解': 30, '部分正解': 8, '不正解': 2, 'でっち上げ': 0} judge: {'glm': 38, 'grok': 2}

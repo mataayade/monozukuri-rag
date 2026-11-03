@@ -1,0 +1,10 @@
+.env
+__pycache__/
+.venv/
+data/raw/
+*.pyc
+.playwright-mcp/
+PLAN.md
+data/pages.jsonl
+data/chunks*.jsonl
+data/embeddings*.npy

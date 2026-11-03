@@ -1,0 +1,6 @@
+pymupdf==2.0
+pymupdf4llm==2.0
+pymupdf_layout==2.0
+numpy==2.5.4
+requests==2.34.2
+streamlit==1.66.1
